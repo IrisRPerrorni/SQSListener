@@ -11,7 +11,13 @@ Então, basicamente, você vai sensibilizar um programa, e automaticamente o out
 - Eu quero que a mensagem chegue automaticamente, então use o SqsListener =]
 
 - https://howtodoinjava.com/spring-cloud/aws-sqs-with-spring-cloud-aws/
+___________________________________
+# Conceito
 
+@SqsListener faz parte do ecossistema do Spring Framework.
+É uma anotação usada em métodos de classe que atuam como ouvintes de filas SQS.
+Simplifica a configuração de ouvintes de filas SQS em um aplicativo Spring, gerenciando a configuração e os detalhes de interação com o SQS em segundo plano.
+@SqsListener está em um nível mais alto de abstração, permitindo que você se concentre mais na lógica de negócios relacionada ao processamento de mensagens, sem se preocupar com os detalhes de baixo nível do SQS.
 _______________________________
 - Com a localstack configurada usar o seguinte comando para criar a fila: 
 ```bash
